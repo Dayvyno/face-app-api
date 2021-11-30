@@ -1,2 +1,2 @@
-# face-app-api
-Backend of the face detection app
+# smartbrainapi
+face detetction backend

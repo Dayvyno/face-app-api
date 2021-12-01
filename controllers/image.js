@@ -50,7 +50,7 @@ const imageHandler = (req, res, db)=>{
     .then(count=>{
       res.json(count[0])
     })
-    .catch(err=>res.status(400).json("Unable to get number of entries"))
+    .catch(err=>res.status(400).json(`Unable to get number of entries: ${err}`))
 }
 
 module.exports = {
